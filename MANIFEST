@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Bundle-CGI-Dependencies.t
+lib/Bundle/CGI/Dependencies.pm
+META.yml                                 Module meta-data (added by MakeMaker)
