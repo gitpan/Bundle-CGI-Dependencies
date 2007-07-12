@@ -3,7 +3,7 @@ package Bundle::CGI::Dependencies;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 
@@ -53,7 +53,7 @@ Text::Balanced
 
 Algorithm::Diff
 
-Scalar::List::Utils
+Scalar::Util
 
 IO
 
@@ -191,7 +191,7 @@ Test::Exception
 
 HTTP::Rollup
 
-Template::StringTree
+Template::Plugin::StringTree
 
 Test::Assertions
 
@@ -354,8 +354,6 @@ Net::SMTP
 CSS
 
 HTML::WikiConverter
-
-Bundle::Ensembl
 
 Bundle::XML
 
@@ -586,8 +584,6 @@ Test::use::ok
 Cache::Memcached
 
 Data::Serializer
-
-Crypt::Datum
 
 Carp::Datum
 
